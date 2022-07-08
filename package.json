@@ -1,7 +1,7 @@
 {
-  "name": "@shadow-drive/sdk",
-  "version": "3.0.1",
-  "description": "Interfaces for GenesysGo ShadowDrive",
+  "name": "@cloakd/shadow-drive",
+  "version": "3.0.12",
+  "description": "FORK OF SHADOW_DRIVE",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -20,8 +20,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf dist",
-    "prebuild": "yarn clean",
     "build": "tsc",
     "docs": "typedoc --excludePrivate --includeVersion --out ./docs src",
     "test": "jest --forceExit",
@@ -39,7 +37,7 @@
     "ts-jest": "^28.0.2",
     "ts-jest-resolver": "^2.0.0",
     "typedoc": "^0.22.15",
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "@project-serum/anchor": "^0.24.2",
